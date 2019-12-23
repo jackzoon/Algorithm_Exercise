@@ -21,7 +21,7 @@ public class MaxWindow {
     }
 
     public static int[] getMaxWindow2(int[] arr, int w) {
-        
+
         int[] res = new int[arr.length - w + 1];
         Deque<Integer> qmax = new LinkedList<>();
         int index = 0;
